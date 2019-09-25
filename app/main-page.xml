@@ -1,0 +1,22 @@
+<Page class="{{ dialogShown ? 'page  dialogOpen' : 'page' }}" navigateTo="sampleFunction">
+<Page.actionBar>
+        <ActionBar title="Samle App" icon="" class="action-bar">
+        </ActionBar>
+    </Page.actionBar>
+
+ <StackLayout>
+            <Button text="Show Dialog" tap="showDialog"></Button>
+
+<AbsoluteLayout class="dialogW">
+<StackLayout class="dialog">
+    <Label text="This is custom dialog">
+    </Label>
+    <button class="btn1" text="OK"></button>
+
+</StackLayout>
+</AbsoluteLayout>
+
+</StackLayout>
+
+</Page>
+
